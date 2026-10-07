@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.vercel/
+*.log
+.DS_Store
+
+# never commit credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# local screenshots
+/*.png
